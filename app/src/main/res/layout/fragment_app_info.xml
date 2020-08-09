@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Main.Fragment_Tentang.AppInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/tv_judulInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wisataqu"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_versi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:layout_below="@id/tv_judulInfo"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_lgo"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/logo_app"
+            android:layout_below="@id/tv_versi">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/tv_copyleft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:text="Copyleft \u00a9 2019 - 2028 Alvin Setiawan"
+            android:gravity="center"
+            android:layout_below="@id/cv_lgo"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliderLinierLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/fram_satu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp">
+
+                <ImageView
+                    android:id="@+id/iv_slideItemImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/slide1"/>
+
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="@string/titleSlider"
+                    android:textSize="10sp"
+                    android:paddingLeft="6dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="#fff"
+                    android:gravity="bottom"/>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

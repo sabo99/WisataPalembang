@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Wisataqu</string>
+
+    <string name="beranda">Beranda</string>
+    <string name="wisata">Wisata</string>
+    <string name="tentang">Tentang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_beranda">Fragment Beranda</string>
+    <string name="fragment_wisata">Fragment Wisata</string>
+    <string name="fragment_tentang">Fragment Tentang</string>
+    <string name="nama_tempat">Nama Tempat Wisata</string>
+    <string name="alamat_tempat">Alamat Tempat Wisata</string>
+    <string name="titleSlider">Photo By</string>
+    <string name="deksSlider">Deksripsi</string>
+    <string name="cari_lokasi">Cari Lokasi</string>
+    <string name="alamat">Jln. Alamat Sekian No. Sekian</string>
+    <string name="jdlalamat">Alamat</string>
+    <string name="detail_deskripsi">Detail Deskripsi</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="nama_tempatDetail">Nama Tempat</string>
+
+    <string name="palembang">Palembang</string>
+
+    <string name="deskripsiPalembang">
+        Palembang, ibukota provinsi Sumatra Selatan Indonesia, adalah kota pelabuhan di Sungai Musi. Sungai, pemandangan pasar terapung,
+        dipagari dengan rumah panggung dan terbentang oleh Jembatan Ampera. Di ujung utara jembatan berdiri
+        Museum megah Sultan Mahmud Badaruddin II, menjelajahi sejarah daerah. Situs arkeologi dan bukit suci Bukit Siguntang menghadap kota.
+    </string>
+
+    <string name="sejarah">Sejarah</string>
+    <string name="about_app">Aplikasi Wisataqu adalah salah seribu dari aplikasi Wisata berbasis android yang menjelaskan tentang wisata yang ada di kota Palembang, dengan menampilkan penjelasan pada masing-masing wisata yang ada di aplikasi ini.</string>
+    <string name="deksripsiKuliner">Hidangan Palembang atau Masakan Palembang adalah hidangan/masakan dari Kota Palembang (dan sekitarnya) di Provinsi Sumatra Selatan, Indonesia. Hidangan ini adalah yang terkenal kedua dari Sumatra setelah Hidangan Padang. Hidangan ini banyak berbahan dasar ikan dan udang yang didukung oleh hadirnya Sungai Musi. Rempah-rempah juga pada umumnya tidak jauh berbeda dengan Hidangan Padang. Budaya Melayu, India, dan Tionghoa juga mempengaruhi racikan kulHidangan Palembang atau Masakan Palembang adalah hidangan/masakan dari Kota Palembang (dan sekitarnya) di Provinsi Sumatra Selatan, Indonesia. Hidangan ini adalah yang terkenal kedua dari Sumatra setelah Hidangan Padang. Hidangan ini banyak berbahan dasar ikan dan udang yang didukung oleh hadirnya Sungai Musi. Rempah-rempah juga pada umumnya tidak jauh berbeda dengan Hidangan Padang. Budaya Melayu, India, dan Tionghoa juga mempengaruhi racikan kuliner Palembang. Di samping hidangan berbahan ikan, ada banyak ragam hidangan, makanan ringan, minuman, dan hidangan manis di Palembang.iner Palembang. Di samping hidangan berbahan ikan, ada banyak ragam hidangan, makanan ringan, minuman, dan hidangan manis di Palembang.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

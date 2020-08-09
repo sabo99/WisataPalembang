@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Main.TentangFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="5dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_app"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@android:color/white"
+                android:text="Wisataqu"
+                android:textSize="32sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Keep Exploring the Universe"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:text="@string/about_app"/>
+
+            <EditText
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:id="@+id/ib_contactUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_contact_us"
+                android:background="@color/colorPrimary"/>
+            <EditText
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="Contact Us"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/ib_appInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_info"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="15dp"/>
+            <EditText
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="App Info"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

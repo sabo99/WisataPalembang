@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment_Main.BerandaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpagerTempat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </androidx.viewpager.widget.ViewPager>
+
+            <!-- Main -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Wisataqu"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/logopalembang" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="@string/palembang"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Kota di Sumatra Selatan"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/deskripsiPalembang"
+                android:textColor="@android:color/white" />
+
+            <!-- Objek Kuliner -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Kuliner"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="6dp">
+
+                <com.synnapps.carouselview.CarouselView
+                    android:id="@+id/carouselView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:fillColor="#FFFFFFFF"
+                    app:radius="3dp"
+                    app:slideInterval="3000"
+                    app:strokeColor="#FF777777"
+                    app:strokeWidth="0.5dp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <!--  Sejarah -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="@string/sejarah"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <!-- Expandable Text View Sejarah -->
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:id="@+id/expand_tvSejarah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:animDuration="200"
+                app:maxCollapsedLines="5">
+
+                <TextView
+                    android:id="@+id/expandable_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white" />
+
+                <ImageButton
+                    android:id="@+id/expand_collapse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:background="@android:color/transparent"
+                    android:padding="16dp" />
+
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</ScrollView>
